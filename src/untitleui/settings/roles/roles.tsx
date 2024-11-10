@@ -1,6 +1,6 @@
 import ListItem from "../../../components/ListItem";
 import CustomRadioButton from "../../../components/checkRadioButton";
-import Mail from "../../../assets/mail.svg";
+import Mail from "../../../assets/Mail.svg";
 import PaymentIcon from "../../../assets/PaymentIcon.svg";
 import CheckButton from "../../../components/ceckButton";
 import AddIcon from "../../../assets/AddIcon.svg";
