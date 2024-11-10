@@ -4,21 +4,39 @@ import Roles from "./roles/roles";
 
 export default function Settings() {
   const tabs = [
-    { label: "My details", content: <div>This is the content for Tab 1</div> },
-    { label: "Profile", content: <div>This is the content for Tab 2</div> },
-    { label: "Password", content: <div>This is the content for Tab 3</div> },
-    { label: "Team", content: <div>This is the content for Tab 1</div> },
-    { label: "Plan", content: <div>This is the content for Tab 2</div> },
+    {
+      label: "My details",
+      content: <div>My details: Keep clicking the task is on Roles Tab </div>,
+    },
+    {
+      label: "Profile",
+      content: <div>Profile: Keep clicking the task is on Roles Tab</div>,
+    },
+    {
+      label: "Password",
+      content: <div>Password: Keep clicking the task is on Roles Tab</div>,
+    },
+    {
+      label: "Team",
+      content: <div>Team: Keep clicking the task is on Roles Tab</div>,
+    },
+    {
+      label: "Plan",
+      content: <div>Plan: Keep clicking the task is on Roles Tab</div>,
+    },
     { label: "Roles", content: <Roles /> },
     {
       label: "Notifications",
-      content: <div>This is the content for Tab 1</div>,
+      content: <div>Notifications: Keep clicking the task is on Roles Tab</div>,
     },
     {
       label: "Integrations",
-      content: <div>This is the content for Tab 2</div>,
+      content: <div>Integrations: Keep clicking the task is on Roles Tab</div>,
     },
-    { label: "API", content: <div>This is the content for Tab 3</div> },
+    {
+      label: "API",
+      content: <div>API: Keep clicking the task is on Roles Tab</div>,
+    },
   ];
   return (
     <div className="m-5">

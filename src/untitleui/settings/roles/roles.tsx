@@ -93,11 +93,9 @@ export default function Roles() {
           })}
         </div>
       </div>
-      <div className="flex justify-center items-center mr-[24rem] space-x-2 mt-5">
+      <div className="flex justify-center items-center mr-0 sm:mr-[24rem] space-x-2 mt-5">
         <img src={AddIcon} alt="add icon" />
-        <p className="text-[12px] text-[#667085] text-center">
-          Add date to user
-        </p>
+        <p className="text-[12px] text-[#667085]">Add date to user</p>
       </div>
 
       <div className="mt-5">

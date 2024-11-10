@@ -13,37 +13,37 @@ export default function UntitleUI() {
   const tabs = [
     {
       title: "Home",
-      content: <div>This is the content for Tab home</div>,
+      content: <div>Home: Keep clicking the task is on Setting Tab</div>,
       icon: <img src={Home} alt="home icon" className="m-2" />,
     },
     {
       title: "Dashboard",
-      content: <div>This is the content for Tab dasboard</div>,
+      content: <div>Dashboard: Keep clicking the task is on Setting Tab</div>,
       icon: <img src={Dashboard} alt="Dashboard icon" className="m-2" />,
     },
     {
       title: "Projects",
-      content: <div>This is the content for Tab projects</div>,
+      content: <div>Dashboard: Keep clicking the task is on Setting Tab</div>,
       icon: <img src={Project} alt="Project icon" className="m-2" />,
     },
     {
       title: "Tasks",
-      content: <div>This is the content for Tab tasks</div>,
+      content: <div>Tasks: Keep clicking the task is on Setting Tab</div>,
       icon: <img src={Task} alt="Task icon" className="m-2" />,
     },
     {
       title: "Reporting",
-      content: <div>This is the content for Tab report</div>,
+      content: <div>Reporting: Keep clicking the task is on Setting Tab</div>,
       icon: <img src={Reporting} alt="Reporting icon" className="m-2" />,
     },
     {
       title: "Users",
-      content: <div>This is the content for Tab Users</div>,
+      content: <div>Users: Keep clicking the task is on Setting Tab</div>,
       icon: <img src={Users} alt="Users icon" className="m-2" />,
     },
     {
       title: "Support",
-      content: <div>This is the content for Tab Support</div>,
+      content: <div>Support: Keep clicking the task is on Setting Tab</div>,
       icon: <img src={Support} alt="Support icon" className="m-2" />,
     },
     {
