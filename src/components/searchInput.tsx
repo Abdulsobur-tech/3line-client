@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Search from "../assets/search.svg";
+import Search from "../assets/Search.svg";
 
 const SearchInput = () => {
   const [inputValue, setInputValue] = useState("");
