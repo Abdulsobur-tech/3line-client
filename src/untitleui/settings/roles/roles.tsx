@@ -9,11 +9,8 @@ import Mark from "../../../assets/Mark.svg";
 import ThreeUsers from "../../../assets/ThreeUsers.svg";
 import FourUser from "../../../assets/FourUsers.svg";
 import UsersAvatar from "../../../assets/UsersAvatar group.svg";
-import { useState } from "react";
 import BasicTable from "../../../components/basicTable";
 export default function Roles() {
-  const [addRole, setAddRole] = useState(false);
-
   const activeRoles = [
     {
       date: "Superadmin",
@@ -96,39 +93,37 @@ export default function Roles() {
           })}
         </div>
       </div>
-      <div
-        className="flex justify-center items-center mr-[24rem] space-x-2 mt-5 hover:cursor-pointer"
-        onClick={() => setAddRole(!addRole)}
-      >
+      <div className="flex justify-center items-center mr-[24rem] space-x-2 mt-5">
         <img src={AddIcon} alt="add icon" />
-        <p className="text-[14px] text-[#667085]">Add date to user</p>
+        <p className="text-[12px] text-[#667085] text-center">
+          Add date to user
+        </p>
       </div>
-      {addRole && (
-        <div className="mt-5">
-          <BasicTable
-            columns={columns}
-            data={data}
-            heading={
-              <div className="m-2">
-                <ListItem
-                  mainTitle={"User Roles"}
-                  mainTitleStyle={"text-[#101828] text-[16px]"}
-                  trailing={
-                    <div className=" flex bg-[#FFFFFF] border rounded-md  w-24 h-8 hover:cursor-pointer hover:bg-slate-300">
-                      <img
-                        src={DownloadIcon}
-                        alt="Download Icon"
-                        className="ml-1  m-2"
-                      />
-                      <p className="text-[12px] m-1">Download</p>
-                    </div>
-                  }
-                />
-              </div>
-            }
-          />
-        </div>
-      )}
+
+      <div className="mt-5">
+        <BasicTable
+          columns={columns}
+          data={data}
+          heading={
+            <div className="m-2">
+              <ListItem
+                mainTitle={"User Roles"}
+                mainTitleStyle={"text-[#101828] text-[16px]"}
+                trailing={
+                  <div className=" flex bg-[#FFFFFF] border rounded-md  w-24 h-8 hover:cursor-pointer hover:bg-slate-300">
+                    <img
+                      src={DownloadIcon}
+                      alt="Download Icon"
+                      className="ml-1  m-2"
+                    />
+                    <p className="text-[12px] m-1">Download</p>
+                  </div>
+                }
+              />
+            </div>
+          }
+        />
+      </div>
     </div>
   );
 }
